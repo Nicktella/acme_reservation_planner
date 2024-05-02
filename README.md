@@ -1,8 +1,10 @@
 # acme_reservation_planner
 Block 34: Join Tables Part 1
 
-The Acme Reservation Planner
-Welcome to the Acme Reservation Planner workshop! In this workshop, you'll be building a RESTful API using Node.js and Express. This API will interact with a PostgreSQL database through exported methods from another file, which we'll refer to as the data layer.
+--The Acme Reservation Planner--
+
+Welcome to the Acme Reservation Planner workshop!
+In this workshop, you'll be building a RESTful API using Node.js and Express. This API will interact with a PostgreSQL database through exported methods from another file, which we'll refer to as the data layer.
 
 Project Setup
 Create a New Repository: Start by creating a new repository named the_acme_reservation_planner.
