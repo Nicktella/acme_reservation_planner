@@ -66,6 +66,12 @@ app.delete('/api/customers/:customer_id/reservations/:id', async (req, res, next
     }
 });
 
+// BONUS BROWNIE POINTS: Error handling middleware
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).json({ error: err.message });
+});
+
 // Initialize the server and database
 const init = async () => {
     try {
